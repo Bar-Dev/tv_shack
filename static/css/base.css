@@ -1,5 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.container-fluid {
+    padding: 0px !important;
+}
+
 .main-logo h1 {
     font-size: 60px !important;
-    color: blue !important;
+    color: rgb(106, 245, 180) !important;
     padding: 25px 0px 25px 0px;
+    font-family: 'Caveat', sans-serif;
+    background-color: darkcyan !important;
+    margin: 0px !important;
+    text-decoration: none;
+}
+
+.main-logo {
+    background-color: darkcyan !important;
+}
+
+.selections {
+    background-color: rgb(106, 245, 180);
+    color: darkcyan;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a {
+    color: rgb(106, 245, 180);
+}
+
+a:hover {
+    color: darkorange;
+}
+
+.test {
+    margin-top: 204px;
+}
+
+.search-box {
+    margin: 10px 0px 10px 0px;
 }
