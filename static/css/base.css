@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-    color: darkorange;
+    color: white;
 }
 
 .test {
@@ -44,6 +44,7 @@ a:hover {
 
 .search-box {
     margin: 10px 0px 10px 0px;
+    padding: 35px 30px 20px 60px;
 }
 
 .nav-links {
@@ -56,11 +57,21 @@ a:hover {
     left: 35% !important;
 }
 
+.products-nav {
+    margin-top: 122px;
+}
+
 /* Media Queries */
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 5rem !important;
     padding-left: 5rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .test-2 {
+    margin-top: 300px !important;
     }
 }
