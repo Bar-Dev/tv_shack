@@ -6,7 +6,9 @@
         "name": "Samsung 50\" Crystal UHD Smart TV",
         "size_range": "41-60\"",
         "description": "Don't settle for anything less than long-lasting, crystal clear colour. Samsung delivers pure colours, sharp contrast and brightness worthy of 4K resolution standards.",
+        "category": 3, 
         "price": 479.99,
+        "color": "black",
         "rating": 4.6,
         "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17682_600x800.jpg",
         "image": "samsung-50.jpeg"
@@ -16,11 +18,13 @@
         "pk": 2,
         "model": "products.product",
         "fields": {
-          "name": "Samsung 50\" Crystal UHD Smart TV",
-          "size_range": "41-60\"",
-          "description": "Don't settle for anything less than long-lasting, crystal clear colour. Samsung delivers pure colours, sharp contrast and brightness worthy of 4K resolution standards.",
-          "price": 479.99,
-          "rating": 4.5,
+          "name": "Toshiba Smart TV with Satellite Tuner",
+          "size_range": "20-30\"",
+          "description": "Toshiba’s 24WL3A63DB is a feature-packed smart TV for the modern home",
+          "category": 1, 
+          "price": 189.99,
+          "rating": 4.3,
+          "color": "black",
           "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_15918_1200xauto.jpg",
           "image": "toshiba-24.jpeg"
         }
@@ -29,25 +33,45 @@
         "pk": 3,
         "model": "products.product",
         "fields": {
-          "name": "Samsung 50\" Crystal UHD Smart TV",
-          "size_range": "41-60\"",
-          "description": "Don't settle for anything less than long-lasting, crystal clear colour. Samsung delivers pure colours, sharp contrast and brightness worthy of 4K resolution standards.",
-          "price": 479.99,
-          "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17682_600x800.jpg",
-          "image": "samsung-50.jpeg"
+          "name": "LG 32\" Full HD Smart TV",
+          "size_range": "31-40\"",
+          "description": "A full HD screen delivers more accurate images in stunning resolution and vivid colour.",
+          "category": 7, 
+          "price": 279.99,
+          "rating": 4.7,
+          "color": "black",
+          "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17744_1200xauto.jpg",
+          "image": "lg-32.jpeg"
         }
       },
       {
         "pk": 4,
         "model": "products.product",
         "fields": {
-          "name": "Samsung 50\" Crystal UHD Smart TV",
-          "size_range": "41-60\"",
-          "description": "Don't settle for anything less than long-lasting, crystal clear colour. Samsung delivers pure colours, sharp contrast and brightness worthy of 4K resolution standards.",
-          "category": 
-          "price": 479.99,
-          "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17682_600x800.jpg",
-          "image": "samsung-50.jpeg"
+          "name": "Sony 65\" 4K OLED TV",
+          "size_range": "60\"+",
+          "description": "Enjoy breathtaking OLED contrast with pictures that feel deep, natural and real. Revolutionary processor uses human perspective analysis to cross-analyse and optimise hundreds of thousands of elements in the blink of an eye.",
+          "category": 4, 
+          "price": 2849.99,
+          "rating": 4.8,
+          "color": "black",
+          "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17697_1200xauto.jpg",
+          "image": "sony-65.jpeg"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "name": "Samsung 85\" 8K Neo QLED Smart TV",
+          "size_range": "60\"+",
+          "description": "A brilliantly bright Samsung Neo QLED 8K TV experience",
+          "category": 10,
+          "rating": 4.9,
+          "price": 13999.99,
+          "color": "silver",
+          "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17439_1200xauto.jpg",
+          "image": "samsung-85.jpeg"
         }
       }
   ]
