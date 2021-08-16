@@ -3,19 +3,33 @@
       "pk": 1,
       "model": "products.product",
       "fields": {
-        "name": "Samsung 50inch Crystal UHD Smart TV",
+        "name": "Samsung 50\" Crystal UHD Smart TV",
         "size_range": "41-60\"",
         "description": "Don't settle for anything less than long-lasting, crystal clear colour. Samsung delivers pure colours, sharp contrast and brightness worthy of 4K resolution standards.",
         "price": 479.99,
+        "rating": 4.6,
         "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17682_600x800.jpg",
         "image": "samsung-50.jpeg"
       }
     },
     {
-        "pk": 1,
+        "pk": 2,
         "model": "products.product",
         "fields": {
-          "name": "Samsung 50inch Crystal UHD Smart TV",
+          "name": "Samsung 50\" Crystal UHD Smart TV",
+          "size_range": "41-60\"",
+          "description": "Don't settle for anything less than long-lasting, crystal clear colour. Samsung delivers pure colours, sharp contrast and brightness worthy of 4K resolution standards.",
+          "price": 479.99,
+          "rating": 4.5,
+          "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_15918_1200xauto.jpg",
+          "image": "toshiba-24.jpeg"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "name": "Samsung 50\" Crystal UHD Smart TV",
           "size_range": "41-60\"",
           "description": "Don't settle for anything less than long-lasting, crystal clear colour. Samsung delivers pure colours, sharp contrast and brightness worthy of 4K resolution standards.",
           "price": 479.99,
@@ -24,24 +38,13 @@
         }
       },
       {
-        "pk": 1,
+        "pk": 4,
         "model": "products.product",
         "fields": {
-          "name": "Samsung 50inch Crystal UHD Smart TV",
+          "name": "Samsung 50\" Crystal UHD Smart TV",
           "size_range": "41-60\"",
           "description": "Don't settle for anything less than long-lasting, crystal clear colour. Samsung delivers pure colours, sharp contrast and brightness worthy of 4K resolution standards.",
-          "price": 479.99,
-          "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17682_600x800.jpg",
-          "image": "samsung-50.jpeg"
-        }
-      },
-      {
-        "pk": 1,
-        "model": "products.product",
-        "fields": {
-          "name": "Samsung 50inch Crystal UHD Smart TV",
-          "size_range": "41-60\"",
-          "description": "Don't settle for anything less than long-lasting, crystal clear colour. Samsung delivers pure colours, sharp contrast and brightness worthy of 4K resolution standards.",
+          "category": 
           "price": 479.99,
           "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17682_600x800.jpg",
           "image": "samsung-50.jpeg"
