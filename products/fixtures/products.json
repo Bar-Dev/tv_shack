@@ -4,29 +4,29 @@
       "model": "products.product",
       "fields": {
         "name": "Samsung 50\" Crystal UHD Smart TV",
-        "size_range": "41-60\"",
+        "size_range": 50,
         "description": "Don't settle for anything less than long-lasting, crystal clear colour. Samsung delivers pure colours, sharp contrast and brightness worthy of 4K resolution standards.",
-        "category": 3, 
+        "category": 5, 
         "price": 479.99,
         "color": "black",
         "rating": 4.6,
         "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17682_600x800.jpg",
-        "image": "samsung-50.jpeg"
+        "image": "samsung-50.png"
       }
     },
     {
         "pk": 2,
         "model": "products.product",
         "fields": {
-          "name": "Toshiba Smart TV with Satellite Tuner",
-          "size_range": "20-30\"",
+          "name": "Toshiba 24\" Smart TV with Satellite Tuner",
+          "size_range": 24,
           "description": "Toshiba’s 24WL3A63DB is a feature-packed smart TV for the modern home",
-          "category": 1, 
+          "category": 8, 
           "price": 189.99,
           "rating": 4.3,
           "color": "black",
           "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_15918_1200xauto.jpg",
-          "image": "toshiba-24.jpeg"
+          "image": "toshiba-24.png"
         }
       },
       {
@@ -34,14 +34,14 @@
         "model": "products.product",
         "fields": {
           "name": "LG 32\" Full HD Smart TV",
-          "size_range": "31-40\"",
+          "size_range": 32,
           "description": "A full HD screen delivers more accurate images in stunning resolution and vivid colour.",
           "category": 7, 
           "price": 279.99,
           "rating": 4.7,
           "color": "black",
           "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17744_1200xauto.jpg",
-          "image": "lg-32.jpeg"
+          "image": "lg-32.png"
         }
       },
       {
@@ -49,14 +49,14 @@
         "model": "products.product",
         "fields": {
           "name": "Sony 65\" 4K OLED TV",
-          "size_range": "60\"+",
+          "size_range": 65,
           "description": "Enjoy breathtaking OLED contrast with pictures that feel deep, natural and real. Revolutionary processor uses human perspective analysis to cross-analyse and optimise hundreds of thousands of elements in the blink of an eye.",
-          "category": 4, 
+          "category": 6, 
           "price": 2849.99,
           "rating": 4.8,
           "color": "black",
           "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17697_1200xauto.jpg",
-          "image": "sony-65.jpeg"
+          "image": "sony-65.png"
         }
       },
       {
@@ -64,14 +64,149 @@
         "model": "products.product",
         "fields": {
           "name": "Samsung 85\" 8K Neo QLED Smart TV",
-          "size_range": "60\"+",
+          "size_range": 85,
           "description": "A brilliantly bright Samsung Neo QLED 8K TV experience",
-          "category": 10,
+          "category": 5,
           "rating": 4.9,
           "price": 13999.99,
           "color": "silver",
           "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17439_1200xauto.jpg",
-          "image": "samsung-85.jpeg"
+          "image": "samsung-85.png"
+        }
+      },
+      {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+          "name": "LG 43\" 4K UHD Smart TV",
+          "size_range": 43,
+          "description": "The Real 4K TV for all your entertainment needs",
+          "category": 7, 
+          "price": 429.99,
+          "rating": 4.8,
+          "color": "black",
+          "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17718_1200xauto.jpg",
+          "image": "lg-43.png"
+        }
+      },
+      {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+          "name": "Sony 50\" 4K Android Tv",
+          "size_range": 50,
+          "description": "Powerful processor uses advanced algorithms to cut noise and boost detail. With an even clearer 4K5 signal, everything you watch is closer to 4K resolution, full of life-like colour and contrast.",
+          "category": 6, 
+          "price": 899.99,
+          "rating": 4.7,
+          "color": "black",
+          "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17690_1200xauto.jpg",
+          "image": "sony-50.png"
+        }
+      },
+      {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+          "name": "Toshiba 32\" Full Smart TV",
+          "size_range": 32,
+          "description": "Toshiba’s TRU Picture technology provides smooth, more detailed viewing, up-scaled to the highest resolution whatever your content. So, whatever you’re watching, we make sure it looks it’s best.",
+          "category": 8, 
+          "price": 229.99,
+          "rating": 4.1,
+          "color": "black",
+          "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17763_1200xauto.jpg",
+          "image": "toshiba-32.png"
+        }
+      },
+      {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+          "name": "APPLE iMac 4K 21.5\"",
+          "size_range": 21.5,
+          "description": "The beautiful iMac design that you know. But with even better specs. The Apple iMac 4K has been upgraded to give you all the power you need to tackle serious projects (as well as everything else you do each day). You've got a fast processor, impressive AMD graphics and a beautiful Retina Display.",
+          "category": 1, 
+          "price": 1689.00,
+          "rating": 4.9,
+          "color": "silver",
+          "image_url": "https://media.stockinthechannel.com/pic/Fft17CX2ME6e_ViJbYD8ew.c-r.jpg",
+          "image": "imac-21.png"
+        }
+      },
+      {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+          "name": "APPLE iMac 4K 27\"",
+          "size_range": 27,
+          "description": "The beautiful iMac design that you know. But bigger and better. The Apple iMac 5K has been upgraded to give you all the power you need to tackle serious projects (as well as everything else you do each day). You've got a fast processor, impressive AMD graphics and a beautiful Retina Display.",
+          "category": 1, 
+          "price": 2649.00,
+          "rating": 4.7,
+          "color": "silver",
+          "image_url": "https://www.refurbed.ie/files/pi/apple-imac-5k-2020-27-1627976949.jpg",
+          "image": "imac-27.png"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+          "name": "ACER Veriton 24\"",
+          "size_range": 24,
+          "description": "This 23.8-inch All-In-One computer provides a great computing experience in a single unit. The slim, space saving, and elegantly styled device keeps you productive with its up to 11th Gen Intel® Core™ i5 processor along with impressively thin bezels to allow you to see even more of the screen. Glorious Sight Images’ intricate details and sharper colors come to life on the 23.8” FHD IPS display.",
+          "category": 2, 
+          "price": 864.99,
+          "rating": 4.2,
+          "color": "black",
+          "image_url": "https://media.stockinthechannel.com/pic/djmz2LSn9U2vo9dmy99ToA.c-r.jpg",
+          "image": "acer-24.png"
+        }
+      },
+      {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+          "name": "Lenovo ThinkCentre 21.5\"",
+          "size_range": 21.5,
+          "description": "Enhanced security and productivity, plus a clearer desk. That’s what the ThinkCentre M70a gives you—right out of the box. With up to 10th Gen Intel® Core™ i9processors, it's engineered to help you get things done, fast. Easy to set up, use, and manage, this all-in-one PCfeatures an adjustable 21.5\" FHD display and Dolby Atmos® audio.",
+          "category": 3, 
+          "price": 1531.77,
+          "rating": 4.0,
+          "color": "black",
+          "image_url": "https://media.stockinthechannel.com/pic/4uCZeG4tEkKLVj2JNcjTCQ.c-r.jpg",
+          "image": "lenovo-21.png"
+        }
+      },
+      {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+          "name": "Philips NeoPix Easy 2 Mini Projector",
+          "size_range": 80,
+          "description": "Get a super-smooth experience and project pictures up to 80″, enjoy a comfortable image, stereo sound and all the connectivity you need for streaming your favourite content.",
+          "category": 9, 
+          "price": 209.99,
+          "rating": 4.0,
+          "color": "black",
+          "image_url": "https://euronics.ie/uploaded/thumbnails/db_file_img_17931_1200xauto.jpg",
+          "image": "philips-80.png"
+        }
+      },
+      {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+          "name": "Benq MX536 Projector 4000",
+          "size_range": 150,
+          "description": "SVGA Business Projector For Presentation Experience Pure Clarity with Finest Crystal Glasses Entering the Era of Digital Transformation Crystal Clear Images Showcase presentations with all-glass lenses, 4000lm high brightness, high resolution, and exclusive color modes. Hassle Free Setup Built for efficiency, MS536 offers Auto Keystone, adjustment feet, and flexible zoom ratio for quick and precise setup.",
+          "category": 10, 
+          "price": 629.45,
+          "rating": 4.0,
+          "color": "black",
+          "image_url": "https://media.stockinthechannel.com/pic/qHN4xVZyWEOxrWhGhExOww.c-r.jpg",
+          "image": "benq-150.png"
         }
       }
   ]

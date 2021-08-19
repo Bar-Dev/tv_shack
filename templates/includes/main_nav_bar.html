@@ -17,39 +17,40 @@
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="size-link"
         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        By Size
+        Computers
       </a>
       <div class="dropdown-menu border-0" aria-labelledby="size-link">
-        <a href="" class="dropdown-item">20-30"</a>
-        <a href="" class="dropdown-item ">31-40"</a>
-        <a href="" class="dropdown-item ">41-60"</a>
-        <a href="" class="dropdown-item">60"+</a>
+        <a href="{% url 'products' %}?category=acer" class="dropdown-item">Acer</a>
+        <a href="{% url 'products' %}?category=apple" class="dropdown-item ">Apple</a>
+        <a href="{% url 'products' %}?category=hp" class="dropdown-item ">HP</a>
+        <a href="{% url 'products' %}?category=lenovo" class="dropdown-item">Lenovo</a>
+        <a href="{% url 'products' %}?category=acer,apple,hp,lenovo" class="dropdown-item">All Computers</a>
       </div>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="brand-link"
         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        By Brand
+        Televisions
       </a>
       <div class="dropdown-menu border-0" aria-labelledby="brand-link">
-        <a href="" class="dropdown-item">Samsung</a>
-        <a href="" class="dropdown-item">Sony</a>
-        <a href="" class="dropdown-item">LG</a>
-        <a href="" class="dropdown-item">Toshiba</a>
-        <a href="" class="dropdown-item">All Brands</a>
+        <a href="{% url 'products' %}?category=samsung" class="dropdown-item">Samsung</a>
+        <a href="{% url 'products' %}?category=sony" class="dropdown-item">Sony</a>
+        <a href="{% url 'products' %}?category=lg" class="dropdown-item">LG</a>
+        <a href="{% url 'products' %}?category=toshiba" class="dropdown-item">Toshiba</a>
+        <a href="{% url 'products' %}?category=samsung,sony,lg,toshiba" class="dropdown-item">All Brands</a>
       </div>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="colour-link" data-toggle="dropdown"
         aria-haspopup="true" aria-expanded="false">
-        Colour
+        Projectors
       </a>
       <div class="dropdown-menu border-0" aria-labelledby="colour-link">
-        <a href="" class="dropdown-item">Black</a>
-        <a href="" class="dropdown-item">Silver</a>
-        <a href="" class="dropdown-item">All Colours</a>
+        <a href="{% url 'products' %}?category=philips" class="dropdown-item">Philips</a>
+        <a href="{% url 'products' %}?category=benq" class="dropdown-item">Benq</a>
+        <a href="{% url 'products' %}?category=philips,benq" class="dropdown-item">All Projectors</a>
       </div>
         </li>
     </ul>
