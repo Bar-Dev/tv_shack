@@ -75,6 +75,14 @@ a:hover {
     z-index: -1;
 }
 
+.navbar {
+    padding: 0px 0px !important;
+}
+
+.update-link, .remove-item {
+    cursor: pointer;
+}
+
 /* Media Queries */
 
 @media (min-width: 992px) {
