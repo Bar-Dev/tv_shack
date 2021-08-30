@@ -210,6 +210,36 @@ a:hover {
 	color: #17a2b8; /* text-info */
 }
 
+.search-icon {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    font-size: xx-large !important;
+}
+
+a, .text-match {
+    color: rgb(105, 245, 180) !important;
+}
+
+a:hover {
+    color:rgb(255, 255, 255) !important;
+    text-decoration: none !important;
+}
+
+.nav-link {
+    color:rgb(150, 150, 150) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(105, 245, 180)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+
+.navbar-toggler {
+    border-color: rgb(105, 245, 180) !important;
+    position: fixed;
+    top: 40px;
+    left: 30px;
+  } 
+
 /* Media Queries */
 
 @media (min-width: 992px) {
@@ -222,5 +252,74 @@ a:hover {
 @media (max-width: 992px) {
     .test-2 {
     margin-top: 300px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .search-scope {
+    display: none;
+    }   
+}
+
+@media (max-width: 992px) {
+    .search-box {
+    display: none;
+    }     
+}
+
+@media (max-width: 850px) {
+    .main-logo h1 {
+    font-size: 40px !important;
+    }
+    .navbar-toggler {
+    top: 30px;
+    }
+}
+
+@media (max-width: 795px) {
+.nav-link {
+    color: rgb(150, 150, 150) !important;
+    padding: 0px;
+    font-size: 0.8rem;
+    }
+    .navbar-toggler {
+    font-size: 0.8rem;
+    }
+    .search-font {
+    font-size: 30px !important;
+    }
+    .navbar-toggler {
+    top: 35px;
+    }
+}
+
+@media (max-width: 665px) {
+    .nav-link {
+    font-size: 0.8rem;
+    }
+    .navbar-toggler {
+    font-size: 0.8rem;
+    }
+    .search-font {
+    font-size: 20px !important;
+    }
+    .navbar-toggler {
+    top: 35px;
+    }
+    .nav-link p {
+    display: none;
+    }
+    .icons-left {
+    text-align: right !important;
+    padding-right: 20px !important;
+    }
+    .spacing-icon {
+    margin: 30px;
+    }
+    .main-logo h1 {
+    font-size: 30px !important;
+    }
+    .search-icon {
+    padding-left: 80px !important;
     }
 }
