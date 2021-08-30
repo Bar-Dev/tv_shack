@@ -256,7 +256,7 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-    .search-scope {
+    .search-scope, .search-page-box {
     display: none;
     }   
 }
