@@ -14,18 +14,35 @@ body {
     padding-top: 164px;
 }
 
+#delivery-banner {
+    margin-top: 50vh;
+    height: 250px;
+    width: 250px;
+    margin-left: 50vw;
+    transform: translate(-50%, -50%);
+    border: 5px solid rgb(106, 245, 180);
+    border-radius: 50%;
+    background-color: rgb(83, 91, 97);
+}
+
+.delivery-text {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
 .main-logo h1 {
     font-size: 60px !important;
     color: rgb(106, 245, 180) !important;
     padding: 25px 0px 25px 0px;
     font-family: 'Caveat', sans-serif;
-    background-color: darkcyan !important;
+    background-color: rgb(83, 91, 97) !important;
     margin: 0px !important;
     text-decoration: none;
 }
 
 .main-logo {
-    background-color: darkcyan !important;
+    background-color: rgb(83, 91, 97) !important;
 }
 
 .selections {
@@ -37,7 +54,7 @@ body {
 }
 
 a {
-    color: rgb(150, 150, 150);
+    color: rgb(83, 91, 97);
 }
 
 a:hover {
@@ -60,6 +77,10 @@ a:hover {
 .nav-links {
     text-align: center;
     background-color: rgb(106, 245, 180) !important;
+}
+
+a .dropdown-item:hover {
+    color: sienna !important;
 }
 
 .dropdown-menu {
@@ -87,6 +108,10 @@ a:hover {
 
 .update-link, .remove-item {
     cursor: pointer;
+}
+
+#payment-form {
+    margin-bottom: 80px;
 }
 
 /* ------------------------------- bootstrap toasts */
@@ -226,13 +251,20 @@ a, .text-match {
     color: rgb(105, 245, 180) !important;
 }
 
+.nav-item a {
+    color: rgb(83, 91, 97) !important;
+}
+
+.price:hover {
+    color:rgb(255, 255, 255) !important;
+}
 a:hover {
     color:rgb(255, 255, 255) !important;
     text-decoration: none !important;
 }
 
 .nav-link {
-    color:rgb(150, 150, 150) !important;
+    color:rgb(105, 245, 180) !important;
 }
 
 .navbar-toggler-icon {
@@ -246,11 +278,15 @@ a:hover {
     left: 30px;
   } 
 
+.nav-text {
+    color: rgb(83, 91, 97);
+}
+
 /* Footer */
 
 .footer {
 	text-align: center;
-    background-color: rgb(0 139 139);
+    background-color: rgb(83, 91, 97);
     color: #69f5b4;
     position: fixed;
     bottom: 0;
@@ -265,6 +301,10 @@ a:hover {
 
 .social-links li a i {
 	color: white;
+}
+
+.dropdown-item {
+    color:rgb(83, 91, 97) !important;
 }
 
 /* Media Queries */
@@ -305,7 +345,7 @@ a:hover {
 
 @media (max-width: 795px) {
 .nav-link {
-    color: rgb(150, 150, 150) !important;
+    color: rgb(83, 91, 97) !important;
     padding: 0px;
     font-size: 0.8rem;
     }
@@ -349,4 +389,42 @@ a:hover {
     .search-icon {
     padding-left: 80px !important;
     }
+}
+
+@media (max-width: 455px) {
+    .main-logo h1 {
+    font-size: 22px !important;
+    }
+    .navbar-toggler {
+    font-size: 0.4rem;
+    }
+    .search-font {
+    font-size: 1.5rem !important;
+    }
+    .navbar-toggler {
+    top: 30px;
+    padding: .25rem, 0rem;
+    }
+    .spacing-icon {
+    margin: 0px;
+    }  
+}
+
+@media (max-width: 340px) {
+    .main-logo h1 {
+    font-size: 20px !important;
+    }
+    .navbar-toggler {
+    font-size: 0.3rem;
+    }
+    .search-font {
+    font-size: 1.2rem !important;
+    }
+    .navbar-toggler {
+    top: 30px;
+    padding: .25rem, 0rem;
+    }
+    .spacing-icon {
+    margin: 0px;
+    }  
 }

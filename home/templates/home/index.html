@@ -2,5 +2,13 @@
 {% load static %}
 
 {% block content %}
-
+<div id="delivery-banner" class="row text-center">
+    <div class="col bg-black text-white">
+        <h4 class="logo-font my-1 delivery-text">Free delivery on orders over ${{ free_delivery_threshold }}!
+            <br>
+            <br>
+            <a href="{% url 'products' %}" ><span>SHOP NOW</span></a>
+        </h4>                
+    </div>            
+  </div>
 {% endblock %}
