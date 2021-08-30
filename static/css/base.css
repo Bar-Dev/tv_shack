@@ -102,6 +102,10 @@ a .dropdown-item:hover {
     z-index: -1;
 }
 
+.standard-text {
+    color: black !important;
+}
+
 .navbar {
     padding: 0px 0px !important;
 }
@@ -112,6 +116,10 @@ a .dropdown-item:hover {
 
 #payment-form {
     margin-bottom: 80px;
+}
+
+.review-form {
+    margin-bottom: 80px !important;
 }
 
 
@@ -310,6 +318,12 @@ a:hover {
 
 .drop-text:hover {
     color: black !important;
+}
+
+.button-tag {
+    background-color: #525b60;
+    width: 20%;
+    margin: auto;
 }
 
 /* Media Queries */
