@@ -58,7 +58,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: rgb(221, 10, 10);
 }
 
 .test {
@@ -113,6 +113,7 @@ a .dropdown-item:hover {
 #payment-form {
     margin-bottom: 80px;
 }
+
 
 /* ------------------------------- bootstrap toasts */
 
@@ -305,6 +306,10 @@ a:hover {
 
 .dropdown-item {
     color:rgb(83, 91, 97) !important;
+}
+
+.drop-text:hover {
+    color: black !important;
 }
 
 /* Media Queries */
