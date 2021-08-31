@@ -1,0 +1,1 @@
+web: gunicorn tv_shack.wsgi:application
