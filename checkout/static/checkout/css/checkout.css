@@ -64,3 +64,16 @@ select option[value=""] {
     margin: 0;
     height: 100%;
 }
+
+.rounded-0 {
+    border-radius: 20px !important;
+    border: 1px solid rgb(83, 91, 97) !important;
+}
+
+.custom-btn:hover {
+    color: rgb(83, 91, 97) !important;
+}
+
+.custom-btn2:hover {
+    color: rgb(105, 245, 180) !important;
+}
