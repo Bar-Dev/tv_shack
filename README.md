@@ -198,15 +198,14 @@ For this project I used the following technologies:
 
 ## Testing
 
-Testing can be found at the following page:
-----
+Testing can be found on its own page [here](https://github.com/Bar-Dev/tv_shack/blob/main/TESTING.md)
 
 
 ## Deployment
 
 A live demo can be found here .
 
-The website is hosted using Heroku. It is linked from the master branch of my milestone repository ----. When new commits are added to the repository, Heroku will rebuild and the site will update with any changes.
+The website is hosted using Heroku. It is linked from the master branch of my milestone repository [Bar-Dev TV Shack](https://github.com/Bar-Dev/tv_shack). When new commits are added to the repository, Heroku will rebuild and the site will update with any changes.
 
 **Cloning via Github**:
 
