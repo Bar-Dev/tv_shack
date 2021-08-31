@@ -145,3 +145,131 @@ As an Admin, the user has extra options on the products page. They can edit or d
 The colour scheme for this project uses colours with a unique contrast to each other. The navbar colouring remains consistant throughout all pages. Colours used in the site where as below:
 
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Bar-Dev/tv_shack/blob/main/static/wireframes/colours.png?raw=true"><img src="https://github.com/Bar-Dev/tv_shack/blob/main/static/wireframes/colours.png?raw=true" alt="Colours" style="max-width:100%;"></a>
+
+
+## Technologies
+For this project I used the following technologies:
+
+[Github](https://github.com/) - Used for repository hosting service.
+
+[Gitpod](https://gitpod.io/) - an online IDE, used to create and edit the project code.
+
+[Heroku](https://heroku.com) - a Cloud Application Platform that enables developers to build, run, and operate applications entirely in the cloud
+
+[Bootstrap 4](https://getbootstrap.com/) - a CSS Framework for developing responsive and mobile-first websites
+
+[HTML 5](https://en.wikipedia.org/wiki/HTML5) - a markup language used for structuring and presenting content on the World Wide Web
+
+[CSS 3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Cascading Style Sheets that describe how HTML elements are to be displayed on screen
+
+[Django]( https://www.djangoproject.com/) – a high-level Python Web framework that encourages rapid development and clean, pragmatic design
+
+[SQlite3]( https://www.sqlite.org/index.html) – database used in development through Django
+
+[PostgreSQL]( https://www.postgresql.org/) – database used in production through Heroku
+
+[Google Fonts]( https://fonts.google.com/) – Used to set the Font Family for the whole site
+
+[FontAwesome](https://www.bootstrapcdn.com/fontawesome/) – used for scalable vector icons
+
+[jQuery](https://jquery.com/) - a JavaScript library that greatly simplifies JavaScript programming
+
+[Slack](https://slack.com/intl/en-ie/) - used by the Code Institute community for open discussions, getting answers and sharing information
+
+[Stackoverflow](https://stackoverflow.com/) - an open community for coders to ask questions and get answers
+
+[W3Schools](https://www.w3schools.com/about/) - for tutorials and references on web development languages
+
+[Free Formatter](https://www.freeformatter.com/javascript-beautifier.html) - a Javascript, HTML and CSS Beautifier.
+
+[W3 Validator](https://validator.w3.org/) - a HTML and CSS Validator.
+
+[PEP8 Online](http://pep8online.com/) - To format all Python code.
+
+
+## Future Features
+
+**Search Icon** : I did want to expand on this page to allow users see previous searchs they had carried out. This can be something implemented in the future.
+
+**Product Reviews**: Additionally to the site reviews I would like to expend this to have specific product reviews.
+
+**Policies**: legal policies such as Terms & Conditions, Cookies Policy and Privacy Policy to be added to a footer at the bottom.
+
+
+## Testing
+
+Testing can be found at the following page:
+----
+
+
+## Deployment
+
+A live demo can be found here .
+
+The website is hosted using Heroku. It is linked from the master branch of my milestone repository ----. When new commits are added to the repository, Heroku will rebuild and the site will update with any changes.
+
+**Cloning via Github**:
+
+*	Open the Github Repository link.
+*	Click on the 'Clone or Download' button.
+*	Copy the URL provided.
+*	Open Git Bash terminal.
+*	Change the current working directory to the location where you want the cloned directory to be made.
+*	Type 'git clone' and paste in the URL.
+*	Press Enter.
+
+**Deploying on Heroku**
+
+- Navigate to [Heroku](https://heroku.com).
+- Install the Heroku CLI (Command Line Interface)
+- Creating an account is required. When at the Heroku dashboard, click the "New" button on top right. A dropdown appears and you now click "Create New app".
+- Name your app. **Note app names must be unique**.
+- Choose your region.
+- On heroku dashboard navigate to "App connected to GitHub" and choose your relevant Github Repository to link to Heroku app.
+- Go to your Bash Terminal.
+- Login to Heroku using `$ heroku login`
+- Create a requirements.txt file: `$ pip3 freeze --local > requirements.txt`.
+- Create Procfile: `$ echo web: python manage.py > Procfile` **Note capital "P" in Procfile.
+- Create a super user profile with ‘python3 manage.py createsuperuser’.
+- Git add, commit and push.
+- Again on your Heroku dashboard, find the apps name, click and then go to "settings".
+- Navigate to "Config Vars", click "Reveal Vars" and enter the following Vars and their values:
+*AWS_ACCESS_KEY_ID
+*AWS_SECRET_ACCESS_KEY
+*DATABASE_URL
+*SECRET_KEY
+*STRIPE_PUBLIC_KEY
+*STRIPE_SECRET_KEY
+*STRIPE_WH_SECRET
+*USE_AWS
+- Navigate to “Deploy”, click on Enable Automatic Deploy. Then click “Deploy Branch” (ensure master branch selected) for first time only.
+- Herokuapp will now build
+- Once built successfully, you can click open app in top right.
+
+**Note to make sure site functions correctly, free account for Stripe and AWS with an S3 bucket are required**
+
+
+## Credits
+### Media
+
+The main logo was made with the help of Font Awesome.
+
+The main Hero image was a google search but can be found at the following address [wallpapersafari](https://cdn.wallpapersafari.com/60/83/r0pR5I.jpg)
+
+### Acknowledgements
+
+The Code Institute tutor Chris (ckz8780). For his excellent tutorial video for the Boutique_Ado project. Which a lot of my coding snippets came from and were redesigned by me to fit my project. 
+
+The Code Institute community on Slack. Very helpful with issues and it was good to see I was not alone with the problems I was facing.
+
+Stack Overflow community and threads/ questions that helped me through difficulties with my project.
+
+The Contact Us Tutorials from [Hello Web Books]( https://hellowebbooks.com/news/tutorial-setting-up-a-contact-form-with-django/) and [OverIQ]( https://overiq.com/django-1-10/building-contact-us-page/)
+
+The Comment Tutorial that I made into my site reviews section from [DjangoCentral]( https://djangocentral.com/creating-comments-system-with-django/)
+
+W3schools for some very helpful tips.
+
+Seun Owonikoko (Mentor) who greatly helped me through this course.
+
+
