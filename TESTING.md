@@ -40,7 +40,7 @@ For testing I broke each page out on its own, and made sure each component of th
 - Successful update redirects to that product details page.
 - Change product image. Updates correctly. Successful toast is displayed.
 - Drop down link in “Accounts” displays “New Product” form, when “Product Management” is clicked.
-- New competition fields are marked as required with an asterix.
+- New product fields are marked as required with an asterix.
 - Test that no individual field can be left blank, including image upload.
 - Check price cannot be more than 8 digits and that an error is displayed under field. Error toast also displays. 
 
@@ -67,7 +67,7 @@ For testing I broke each page out on its own, and made sure each component of th
 ### Cart(cart.html)
 - Test empty cart brings you to “Cart empty” page.
 - With items in cart test cart table is displayed correctly.
-- Test “Continue to Products” button directs to Competitions page.
+- Test “Continue to Products” button directs to Products page.
 - Test “Sign in” link directs to sign in page.
 - If User is logged in, “Continue to Products” and “Checkout” options are displayed.
 - Test “Continue to Products” button directs to Products page.

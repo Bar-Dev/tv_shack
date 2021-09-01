@@ -118,7 +118,7 @@ If a user has further question for us. They can contact us through the use of th
 From time to time a user may feel like leaving a site review about their experience on the site. This may be what they like, don’t like, suggestions for products etc. All visitors to the site can view this reviews page and read these from newest to oldest. If the visitor to the site is logged in, below the reviews a form for submitting is revealed, containing Name, Email and Message.
 
 #### Cart Page
-Once a product is added to the users cart, it will automatically total the price in USD in the top right. When the user clicks the cart it bring them to the full cart display page. This shows what competition entries they have selected, the quantity of each, and the total cost of their items combined.
+Once a product is added to the users cart, it will automatically total the price in USD in the top right. When the user clicks the cart it bring them to the full cart display page. This shows what products they have selected, the quantity of each, and the total cost of their items combined.
 The user then has the option to return to the other products or continue to the checkout page. They can also Update and Remove items from their cart on this page.
 Only if the User has registered and logged in will they be given the checkout option.
 
