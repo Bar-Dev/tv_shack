@@ -19,3 +19,39 @@
 #id_default_country option:first-child {
     color: #aab7c4;
 }
+
+/* Footer */
+
+.footer {
+	text-align: center;
+    background-color: rgb(83, 91, 97);
+    color: #69f5b4;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+}
+
+.footer-item {
+	margin: 0px;
+	padding: 0px;
+    margin-top: 10px !important;
+}
+
+.social-links li a i {
+	color: white;
+}
+
+.dropdown-item {
+    color:rgb(83, 91, 97) !important;
+}
+
+.drop-text:hover {
+    color: black !important;
+}
+
+.button-tag {
+    background-color: rgb(83, 91, 97);
+    width: 20%;
+    margin: auto;
+}
