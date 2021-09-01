@@ -203,7 +203,7 @@ Testing can be found on its own page [here](https://github.com/Bar-Dev/tv_shack/
 
 ## Deployment
 
-A live demo can be found here .
+A live demo can be found [here](https://bar-dev-tv-shack.herokuapp.com/).
 
 The website is hosted using Heroku. It is linked from the master branch of my milestone repository [Bar-Dev TV Shack](https://github.com/Bar-Dev/tv_shack). When new commits are added to the repository, Heroku will rebuild and the site will update with any changes.
 
