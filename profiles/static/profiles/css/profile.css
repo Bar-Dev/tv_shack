@@ -20,6 +20,14 @@
     color: #aab7c4;
 }
 
+.input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child) {
+    border-radius: 25px !important;
+}
+
+.form-control {
+    border-radius: 25px !important;
+}
+
 /* Footer */
 
 .footer {

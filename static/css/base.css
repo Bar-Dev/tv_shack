@@ -312,6 +312,14 @@ a:hover {
     color: rgb(105, 245, 180) !important;
 }
 
+.input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child) {
+    border-radius: 25px !important;
+}
+
+.form-control {
+    border-radius: 25px !important;
+}
+
 /* Footer */
 
 .footer {
@@ -346,6 +354,10 @@ a:hover {
     background-color: rgb(83, 91, 97);
     width: 20%;
     margin: auto;
+}
+
+.bottom-push {
+    margin-bottom: 80px !important;
 }
 
 /* Media Queries */
